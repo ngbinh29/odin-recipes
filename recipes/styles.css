@@ -1,0 +1,17 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-color: peachpuff;
+    color: #381D2A;
+    
+}
+
+h2 {
+    margin: auto;
+    font-size: 48px;
+}
+
+p, li {
+    font-size: 22px;
+    text-align: justify;
+}
+
