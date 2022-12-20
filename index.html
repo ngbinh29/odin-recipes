@@ -5,12 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ohh Recipes</title>
+    <style>
+        h1 {
+            background-image: linear-gradient(90deg, lightblue, gold);
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 64px;
+            margin: 0 25%;
+        }
+
+        .menu {
+            background-color: darkcyan;
+            border: 3px outset pink;
+            border-radius: 25px;
+            margin-top: 1rem;
+        }
+
+        .menu p {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: #e1e1e1;
+            font-size: 48px;
+            font-weight: 600;
+            margin: 0;
+            text-align: center;
+            margin-bottom: 5rem;
+        }
+
+        .links {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        a {
+            text-decoration: none;
+            color: #e1e1e1;
+            font-size: 32px;
+            font-weight: 500;
+        }
+    </style>
 </head>
 <body>
     <h1>Odin Recipes</h1>
 
-    <a href="./recipes/vn-crab-noodle-soup.html">Vietnamese Crab Noodle Soup</a>
-    <a href="./recipes/miso-soup.html">Miso Soup</a>
-    <a href="./recipes/pho.html">Authentic Pho</a>
+    <div class="menu">
+        <p>Menu</p>
+        <div class="links">
+            <a href="./recipes/vn-crab-noodle-soup.html">Vietnamese Crab Noodle Soup</a>
+            <a href="./recipes/miso-soup.html">Miso Soup</a>
+            <a href="./recipes/pho.html">Authentic Pho</a>
+        </div>
+    </div>
 </body>
 </html>
